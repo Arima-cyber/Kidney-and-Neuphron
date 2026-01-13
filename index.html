@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Sinh học – Thận</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🧬 Sinh học – Thận</h1>
+  <nav>
+    <button onclick="showSection('kidney')">Mô hình Thận</button>
+    <button onclick="showSection('nephron')">Mô hình Nephron</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- MỤC 1 -->
+  <section id="kidney" class="content active">
+
+  <!-- NỬA TRÁI: MÔ HÌNH THẬN -->
+  <div class="left">
+    <iframe
+      title="Human Kidney Anatomy Cross Section"
+      src="https://sketchfab.com/models/d8c0652ddff4474585ccba155c490622/embed?autospin=0.5&ui_hint=2"
+      frameborder="0"
+      allow="autoplay; fullscreen; xr-spatial-tracking"
+      allowfullscreen
+      style="width:100%; height:100%;">
+    </iframe>
+  </div>
+
+  <!-- NỬA PHẢI: NỘI DUNG -->
+  <div class="right" contenteditable="true">
+    <h2>📘Thận</h2>
+    <p>Thận là một cơ quan quan trọng trong quá trình bài tiết của cơ thể. Nhờ có thận chúng ta mới có thể lọc máu, bài tiết các chất thải.</p>
+    <p>Thận bao gồm các bộ phận:</p>
+    <p>1. Động mạch thận (ống màu đỏ): đưa máu đến thận để lọc.</p>
+    <p>2. Tĩnh mạch thận (ống màu xanh): đưa máu ít chất thải trở lại cơ thể.</p>
+    <p>3. Tháp thận và vỏ thận: là nơi xảy ra quá trình lọc máu nhờ các neuphron.</p>
+    <p>4. Bể thận: nước tiểu được đổ ra bể thận từ các tháp thận.</p>
+    <p>5. Ống dẫn nước tiểu: dẫn nước tiểu xuống bàng quang.</p>
+  </div>
+  <!-- MỤC 2 -->
+ <section id="nephron" class="content">
+
+  <div class="left">
+    <iframe
+      title="Nephron 3D"
+      src="https://sketchfab.com/models/6ad41c178fa84d4a9e80deb76b151e41/embed?autospin=0.5&ui_hint=2"
+      frameborder="0"
+      allowfullscreen
+      style="width:100%; height:100%;">
+    </iframe>
+  </div>
+  <div class="right" contenteditable="true">
+      <h2>📘 Neuphron</h2>
+      <p>Neuphron là dơn vị lọc máu ở thận, đóng góp vai trò quan trọng trong việc bài tiết bằng thận.</p>
+      <p>Neuphron bao gồm các bộ phận:</p>
+      <p>1. Cầu thận (mao mạch cầu thận và khoang Bowman): lọc trực tiếp máu để tạo nước tiểu đầu.</p>
+      <p>2. Ống lượn gần: tái hấp thu chủ yếu là nước, Na+, K+.</p>
+      <p>3. Quai Henle: tái hấp thu nước ở nhánh xuống, Na+ và Cl- ở nhánh lên.</p>
+      <p>4. Ống lượn xa: tái hấp thu nước (phụ thuộc ADH) và Na+ (phụ thuộc Aldosterone).</p>
+      <p>5. Ống góp: tái hấp thụ nước tuỳ theo như cầu cơ thể (phụ thuộc ADH).</p>
+      <p>Thận bao gồm các bộ phận:</p>
+    <p>=> Sau khi nước tiểu được vận chuyển qua các bộ phận trong neuphron thì sẽ hình thành được nước tiểu chính thức.</p>
+    </div>
+  </section>
+
+</main>
+
+<script src="libs/three.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
